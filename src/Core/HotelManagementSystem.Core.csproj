@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -16,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="Availability\Domain\" />
-    <Folder Include="Shared\" />
   </ItemGroup>
 
 </Project>
