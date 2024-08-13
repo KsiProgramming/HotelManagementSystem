@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="Availability\Domain\" />
+    <Folder Include="Shared\" />
   </ItemGroup>
 
 </Project>
