@@ -1,0 +1,1 @@
+This repository represents a hotel management system
