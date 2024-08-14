@@ -6,4 +6,6 @@
 
 namespace HotelManagementSystem.Core.Shared.DatesAndTimes;
 
+#pragma warning disable SA1313 // ParameterNamesMustBeginWithLowerCaseLetter
 public record struct DateRange(DateOnly StartDate, DateOnly EndDate);
+#pragma warning restore SA1313 // ParameterNamesMustBeginWithLowerCaseLetter
