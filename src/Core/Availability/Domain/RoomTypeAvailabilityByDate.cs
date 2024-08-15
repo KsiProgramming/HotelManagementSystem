@@ -4,7 +4,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-namespace HotelManagementSystemAvailability.Domain;
+namespace HotelManagementSystem.Availability;
 
 using System.Collections.ObjectModel;
 
