@@ -15,7 +15,7 @@ public class RoomTypeAvailabilityManager
         this.repository = repository;
     }
 
-    public IReadOnlyList<int> FindAvailableRoomTypeIds(RoomTypeAvailibilityQuery query)
+    public IReadOnlyList<RoomTypeAvailabilityByDate> FindAvailableRoomTypeIds(RoomTypeAvailibilityQuery query)
     {
         return this.repository.FindAvailableRoomTypeIds(query);
     }

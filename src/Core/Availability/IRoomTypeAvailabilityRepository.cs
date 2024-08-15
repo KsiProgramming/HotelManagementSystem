@@ -8,5 +8,5 @@ namespace HotelManagementSystem.Availability;
 
 public interface IRoomTypeAvailabilityRepository
 {
-    public IReadOnlyList<int> FindAvailableRoomTypeIds(RoomTypeAvailibilityQuery query);
+    public IReadOnlyList<RoomTypeAvailabilityByDate> FindAvailableRoomTypeIds(RoomTypeAvailibilityQuery query);
 }
