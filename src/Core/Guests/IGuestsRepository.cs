@@ -8,5 +8,5 @@ namespace HotelManagementSystem.Guests;
 
 public interface IGuestsRepository
 {
-    public Task<IReadOnlyList<Guest>> Find(GuestsQuery query);
+    public Task<IReadOnlyList<Guest>> FindAsync(GuestsQuery query);
 }

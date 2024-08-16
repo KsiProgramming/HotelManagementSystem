@@ -12,5 +12,5 @@ public class GuestsManager
 
     public GuestsManager(IGuestsRepository repository) => this.repository = repository;
 
-    public async Task<IReadOnlyList<Guest>> FindAsync(GuestsQuery query) => await this.repository.Find(query);
+    public async Task<IReadOnlyList<Guest>> FindAsync(GuestsQuery query) => await this.repository.FindAsync(query);
 }
