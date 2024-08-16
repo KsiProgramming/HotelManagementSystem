@@ -12,5 +12,7 @@ public class GuestsManager
 
     public GuestsManager(IGuestsRepository repository) => this.repository = repository;
 
+    public async Task AddAsync(GuestForCreation guest) => await this.repository.AddAsync(guest);
+
     public async Task<IReadOnlyList<Guest>> FindAsync(GuestsQuery query) => await this.repository.FindAsync(query);
 }
