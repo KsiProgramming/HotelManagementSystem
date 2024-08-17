@@ -10,5 +10,5 @@ using System.Collections.ObjectModel;
 
 public class RoomTypeCollateralQuery
 {
-    public Collection<int> Id { get; } = new Collection<int>();
+    public Collection<int> Ids { get; } = new ();
 }
